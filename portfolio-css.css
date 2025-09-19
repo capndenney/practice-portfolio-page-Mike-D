@@ -1,0 +1,93 @@
+body { 
+    background-color: whitesmoke;
+    color: #081F2C;
+    margin: 0pt;
+    padding:0pt;
+}
+
+p{
+    text-align: left;
+    font-family: 'Cambria';
+    font-size: 15px;
+    padding-left: 15pt;
+}
+
+table, th, td {
+    border: 2px solid teal;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: ;
+    margin: 0px;
+}
+
+th { 
+    background-color: teal;
+}
+
+section {
+    margin: 0pt 0pt 0pt;
+}
+
+#skills-table {
+    padding-left: 15pt;
+    margin-left: 15pt;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: helvetica;
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 10pt;
+}
+
+#feedback {
+    font-family: Cambria;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 5pt;
+    padding: 5px;
+    font-family: helvetica;
+}
+
+label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#message {
+    height: fit-content;
+}
+
+input {
+    margin-left: 5pt;
+    width:175px;
+}
+
+#tagline {
+    padding: 14px;
+    background-color: #FAA0A0 ;
+}
+
+.navbar {
+    padding-left: 14px;
+    justify-content: right;
+    background-color: grey;
+    margin: 0pt 0pt 0pt;
+}
