@@ -1,0 +1,186 @@
+:root {
+    --main-color-1: #2A5A40;
+    --main-color-2: #7C402D;
+    --bg-neutral: #EAF0F4;
+    --color-text: #3A474E;
+    --color-subtext: #9BAAB4;
+    --color-accent-1: #4A90E2;
+    --color-accent-2: #a7b376;
+    --color-accent-3: #C8B936;
+}
+
+/*Font Add*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Italic-VariableFont_wght.ttf) format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-BoldItalic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-Italic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-Light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-LightItalic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-Black.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-BlackItalic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: 500;
+}
+
+/*Classes*/
+.block-text {
+    color: var(--color-text);
+    font-family: 'Lato';
+}
+
+.navbar {
+    padding-left: 14px;
+    justify-content: right;
+    background-color: var(--color-accent-2);
+    margin: 0pt 0pt 0pt;
+}
+
+/*Elements*/
+body { 
+    background-color: var(--bg-neutral);
+    color: var(--color-text);
+    margin: 0pt;
+    padding:0pt;
+}
+
+p {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 15px;
+    padding-left: 15pt;
+}
+
+table, th, td {
+    border: 2px solid var(--main-color-1);
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    font-family: Helvetica;
+}
+
+header {
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+th { 
+    background-color: var(--main-color-1);
+    color: whitesmoke;
+}
+
+section {
+    margin: 0pt 0pt 0pt;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 10pt;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 5pt;
+    padding: 5px;
+    font-family: helvetica;
+}
+
+label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+input {
+    margin-left: 5pt;
+    width:175px;
+}
+
+/*IDs*/
+#message {
+    height: fit-content;
+}
+
+#tagline {
+    padding: 14px;
+    background-color: var(--main-color-2) ;
+    color: whitesmoke;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: italic;
+}
+
+#feedback {
+    font-family: Leto;
+    margin-top: 20px;
+}
+
+#skills-table {
+    padding-left: 15pt;
+    margin-left: 15pt;
+}
