@@ -1,3 +1,13 @@
+:root {
+    --main-color-1: #2A5A40;
+    --main-color-2: #7C402D;
+    --bg-neutral: #EAF0F4;
+    --color-text: #3A474E;
+    --color-subtext: #9BAAB4;
+    --color-accent-1: #4A90E2;
+    --color-accent-2: #a7b376;
+}
+
 body { 
     background-color: whitesmoke;
     color: #081F2C;
